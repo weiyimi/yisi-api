@@ -1,8 +1,8 @@
-package com.gupaoedu.vip.pattern.factory.abstr;
+package com.design.model.factory.abstr;
 
-import com.gupaoedu.vip.pattern.factory.Bean;
-import com.gupaoedu.vip.pattern.factory.ControllerBean;
-import com.gupaoedu.vip.pattern.factory.ServiceBean;
+import com.design.model.factory.Bean;
+import com.design.model.factory.ControllerBean;
+import com.design.model.factory.ServiceBean;
 
 public class FactoryBean extends AbstractFactoryBean {
     @Override

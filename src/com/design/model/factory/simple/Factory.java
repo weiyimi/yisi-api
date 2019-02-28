@@ -1,8 +1,8 @@
-package com.gupaoedu.vip.pattern.factory.simple;
+package com.design.model.factory.simple;
 
-import com.gupaoedu.vip.pattern.factory.Bean;
-import com.gupaoedu.vip.pattern.factory.ControllerBean;
-import com.gupaoedu.vip.pattern.factory.ServiceBean;
+import com.design.model.factory.ControllerBean;
+import com.design.model.factory.ServiceBean;
+import com.design.model.factory.Bean;
 
 public class Factory {
 

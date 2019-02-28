@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.factory.standard;
+package com.design.model.factory.standard;
 
 public class FactoryTest {
 

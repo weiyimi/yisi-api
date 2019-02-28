@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.factory;
+package com.design.model.factory;
 
 public interface Bean {
     

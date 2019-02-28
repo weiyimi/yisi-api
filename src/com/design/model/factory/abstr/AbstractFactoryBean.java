@@ -1,6 +1,6 @@
-package com.gupaoedu.vip.pattern.factory.abstr;
+package com.design.model.factory.abstr;
 
-import com.gupaoedu.vip.pattern.factory.Bean;
+import com.design.model.factory.Bean;
 
 public abstract class AbstractFactoryBean {
 
