@@ -17,7 +17,7 @@ public class MeipoJDKProxy implements InvocationHandler {
     public Object getInstance(Person person){
         this.person = person;
         Class<?> destClass = person.getClass();
-        // 生成一个实现了目标对象的接口的新的对象
+        // 生成一个实现了目标对象的接口的新的对象（通过字节码重组）
         return Proxy.newProxyInstance(destClass.getClassLoader(), destClass.getInterfaces(), this);
     }
 
